@@ -23,7 +23,7 @@
 
 .instructions-title {
   color: #ecf0f1;
-  background-color: #800020;
+  background-color: rgba(128, 0, 32, 0.7);
 }
 
 .instructions-line {
@@ -57,3 +57,24 @@
   width: 200px;
   background-color: rgba(255, 255, 255, 0.7);
 }
+
+.example-wrapper {
+  background-color: #FEFBEA;
+}
+
+.mood-button-wrapper > button {
+  border-color: transparent;
+  border-radius: 10px;
+  background-color: 	#F1C40F;
+  color: 	#FEFBEA;
+}
+
+.mood-button-wrapper > button:hover {
+  background-color: #800020;
+}
+
+#moodExample .carousel-item {
+  transition: none !important;
+  height: 500px;
+}
+
