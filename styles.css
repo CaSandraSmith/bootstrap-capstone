@@ -102,3 +102,7 @@ form button {
   background-color: #BDC3C7;
   color: white;
 }
+
+.editor-button-wrapper > button {
+  background-color: #F1C40F;
+}
