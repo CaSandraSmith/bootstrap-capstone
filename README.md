@@ -1,6 +1,7 @@
 # Bootstrap Capstone
 
 ## Concept
+"Reel Recs" - Personalized Movie Recommendations A website that gives quick, personalized movie recommendations based on a few mood or genre questions.
 
 ## Wireframes
 ### Page 1 - Home Page
