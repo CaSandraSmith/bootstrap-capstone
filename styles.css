@@ -4,6 +4,14 @@
     height: auto;
 }
 
-.testing {
-    /* border: 2px solid white; */
+.carousel-item .row {
+    height: 45rem;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+.rec-carosel-button {
+    background-color: #E74C3C;
+    border-color: transparent;
+    border-radius: 10px;
 }
