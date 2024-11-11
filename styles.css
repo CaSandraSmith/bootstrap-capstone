@@ -73,7 +73,7 @@
   background-color: #800020;
 }
 
-#moodExample .carousel-item {
+#moodExample .carousel-item, #recCarosel .carousel-item {
   transition: none !important;
   background-color: #FEFBEA;
   min-height: 400px;
@@ -89,10 +89,6 @@
 
 .recents-wrapper {
   background-color: #BDC3C7;
-  /* box-sizing: border-box; */
-}
-
-.recents-movie-wrapper {
   /* box-sizing: border-box; */
 }
 

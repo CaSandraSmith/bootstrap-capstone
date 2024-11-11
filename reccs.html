@@ -96,8 +96,29 @@
               <option value="Any">Any</option>
             </select>
           </div>
-        <button type="button" class="rounded p-2 align-self-center">Get My Movie Recommendation!</button>
+          <button type="button" class="rounded p-2 align-self-center" data-bs-target="#recCarosel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Get My Movie Recommendation!</button>
       </form>
+    </section>
+    <section>
+        <div class="mb-4">
+            <div id="recCarosel" class="carousel" data-bs-ride="false">
+              <div class="carousel-inner">
+                <div class="carousel-item z-1 pt-4 pb-3">
+                  <div class="d-flex column-gap-3 justify-content-center flex-column flex-sm-row">
+                    <img src="images/Murder_Mystery.png" class="d-block col-12 col-sm-3 object-fit-scale example-image" alt="...">
+                    <div class="col-12 col-sm-4 d-flex flex-column justify-content-evenly">
+                      <h4>Murder Mystery</h4>
+                      <p>A New York cop and his wife go on a European vacation to reinvigorate the spark in their marriage, but end up getting framed and on the run for the death of an elderly billionaire.</p>
+                      <a href="https://www.youtube.com/watch?v=5YEVQDr2f3Q" target="_blank" class="text-decoration-none trailer-link"><h4>Click here to watch trailer</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item active d-flex justify-content-center pt-4 pb-3">
+                  <img src="images/examplePosters/default.png" class="d-block rounded example-image" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
   </body>
 </html>
