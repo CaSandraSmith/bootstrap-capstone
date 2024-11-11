@@ -86,3 +86,12 @@
 .trailer-link {
   color: #F1C40F;
 }
+
+.recents-wrapper {
+  background-color: #BDC3C7;
+  /* box-sizing: border-box; */
+}
+
+.recents-movie-wrapper {
+  /* box-sizing: border-box; */
+}
