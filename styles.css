@@ -76,5 +76,6 @@
 #moodExample .carousel-item {
   transition: none !important;
   height: 500px;
+  background-color: #FEFBEA;
 }
 
