@@ -75,7 +75,14 @@
 
 #moodExample .carousel-item {
   transition: none !important;
-  height: 500px;
   background-color: #FEFBEA;
+  min-height: 400px;
 }
 
+.example-image {
+  height: 400px;
+}
+
+.trailer-link {
+  color: #F1C40F;
+}
