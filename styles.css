@@ -95,3 +95,14 @@
 .recents-movie-wrapper {
   /* box-sizing: border-box; */
 }
+
+label {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+form button {
+  border-color: transparent;
+  background-color: #BDC3C7;
+  color: white;
+}
