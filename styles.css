@@ -1,17 +1,59 @@
 .navbar {
-    background-color: #2C3E50;
-    color: white;
-    height: auto;
+  background-color: #2c3e50;
+  color: white;
+  height: auto;
 }
 
 .carousel-item .row {
-    height: 45rem;
-    box-sizing: border-box;
-    padding: 2rem;
+  height: 45rem;
+  box-sizing: border-box;
+  padding: 2rem;
 }
 
 .rec-carosel-button {
-    background-color: #E74C3C;
-    border-color: transparent;
-    border-radius: 10px;
+  background-color: #e74c3c;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+.instructions-wrapper {
+  background-image: url("./images/glitterBg.jpg");
+  row-gap: 5rem;
+}
+
+.instructions-title {
+  color: #ecf0f1;
+  background-color: #800020;
+}
+
+.instructions-line {
+  border-top: 6px solid #800020;
+  margin-bottom: 50px;
+}
+
+.instructions-line h3 {
+  background-color: #800020;
+  color: #ecf0f1;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  top: -2rem;
+}
+
+.center-dot {
+  transform: translateX(-50%);
+}
+
+.instruction-text p{
+  top: 100px;
+}
+
+.steps-desc {
+  padding: 0 40px;
+  width: 90%;
+}
+
+.steps-desc > div {
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
